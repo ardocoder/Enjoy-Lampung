@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_place"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="100"
+        android:background="@color/colorBackgroundCard"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:id="@+id/img_place"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:adjustViewBounds="true"
+            android:layout_weight="100"
+            android:scaleType="centerCrop"
+            tools:src="@android:color/darker_gray" />
+
+        <TextView
+            style="@style/TextContent"
+            android:id="@+id/tv_name"
+            tools:text="@string/place_name"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorTitleText"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_place_location"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorText"/>
+
+                <TextView
+                    android:id="@+id/tv_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    tools:text="@string/place_location"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_time_location"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorText"/>
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    tools:text="@string/time_location"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_ticket_location"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorText"/>
+
+                <TextView
+                    android:id="@+id/tv_HTM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    tools:text="@string/ticket_location"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black" />
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            style="@style/TextContent.Subtitle"
+            android:text="@string/text_detail_location"
+            android:textColor="@color/colorText"/>
+
+        <TextView
+            style="@style/TextContent.Black"
+            android:id="@+id/tv_detail"
+            tools:text="@string/detail_location" />
+
+    </LinearLayout>
+
+</ScrollView>

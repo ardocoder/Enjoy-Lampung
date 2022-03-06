@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Enjoy Lampung</string>
+    <string name="place_name">Nama Wisata</string>
+    <string name="text_place_location">Alamat :</string>
+    <string name="place_location">Lokasi</string>
+    <string name="text_time_location">Jam :</string>
+    <string name="time_location">Operasional</string>
+    <string name="text_ticket_location">HTM :</string>
+    <string name="ticket_location">HTM</string>
+    <string name="text_detail_location">Ulasan Lokasi :</string>
+    <string name="detail_location">Detail</string>
+    <string name="list_page">Menu List</string>
+    <string name="grid_page">Menu Grid</string>
+    <string name="about_page">About</string>
+    <string name="profile_name">Bonardo Ricardo Anthur</string>
+    <string name="facebook">Facebook</string>
+    <string name="follow_facebook">Follow</string>
+    <string name="follow_twitter">Follow</string>
+    <string name="follow_instagram">Follow</string>
+    <string name="front_end_engineer">Front-End Developer</string>
+    <string name="email">ardo1978@gmail.com</string>
+    <string name="phone_number">081278798770</string>
+    <string name="homepage">ardosianturi.com</string>
+    <string name="enjoy_lampung">Enjoy Lampung</string>
+</resources>
